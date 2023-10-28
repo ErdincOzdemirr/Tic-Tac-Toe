@@ -1,3 +1,2 @@
 Tic-Tac-Toe
-
-![Tictactoe](https://github.com/HakanOzdemir-FFS/ticTacToeGame/assets/139346377/e4be3d06-992c-4370-a4c8-5d04042656a5)
+<img width="878" alt="Ekran Resmi 2023-10-28 14 25 35" src="https://github.com/ErdincOzdemirr/Tic-Tac-Toe/assets/127399545/2242ee33-c151-46e3-8466-81066ced6ca1">
