@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.frame {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70rem;
+  height: 70rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  border-radius: 5rem;
+}
+
+.container {
+  width: 20rem;
+  height: 20rem;
+  background-color: lightblue;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+  cursor: pointer;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+
+#button-container {
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.characterButton {
+  margin: 0 6.5rem;
+  width: 10rem;
+  height: 10rem;
+  background:  linear-gradient(to bottom left, lightblue, lightcoral);
+  color: white;
+  font-size: 5rem;
+  text-shadow: 0 0 0.5rem black;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+#turn{
+  
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: -10%;
+  font-size: 5rem;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.7)
+}
+
+
+.reset-button-div{
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#clear{
+  width: 30rem;
+  height: 10rem;
+  background:  linear-gradient(to bottom left, lightblue, lightcoral);
+  color: white;
+  font-size: 5rem;
+  text-shadow: 0 0 0.5rem black;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: none;
+}
